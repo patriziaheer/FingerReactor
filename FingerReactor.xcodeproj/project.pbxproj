@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A75174136944980056EED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75173136944980056EED6 /* UIKit.framework */; };
+		64A75176136944980056EED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75175136944980056EED6 /* Foundation.framework */; };
+		64A75178136944980056EED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75177136944980056EED6 /* CoreGraphics.framework */; };
+		64A7517E136944980056EED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A7517C136944980056EED6 /* InfoPlist.strings */; };
+		64A75181136944980056EED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75180136944980056EED6 /* main.m */; };
+		64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75183136944980056EED6 /* FingerReactorAppDelegate.m */; };
+		64A75187136944990056EED6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A75185136944990056EED6 /* MainWindow.xib */; };
+		64A7518A136944990056EED6 /* FingerReactorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75189136944990056EED6 /* FingerReactorViewController.m */; };
+		64A7518D136944990056EED6 /* FingerReactorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A7518B136944990056EED6 /* FingerReactorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64A7516F136944980056EED6 /* FingerReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A75173136944980056EED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64A75175136944980056EED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64A75177136944980056EED6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64A7517B136944980056EED6 /* FingerReactor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerReactor-Info.plist"; sourceTree = "<group>"; };
+		64A7517D136944980056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64A7517F136944980056EED6 /* FingerReactor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingerReactor-Prefix.pch"; sourceTree = "<group>"; };
+		64A75180136944980056EED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64A75182136944980056EED6 /* FingerReactorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReactorAppDelegate.h; sourceTree = "<group>"; };
+		64A75183136944980056EED6 /* FingerReactorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReactorAppDelegate.m; sourceTree = "<group>"; };
+		64A75186136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		64A75188136944990056EED6 /* FingerReactorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReactorViewController.h; sourceTree = "<group>"; };
+		64A75189136944990056EED6 /* FingerReactorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReactorViewController.m; sourceTree = "<group>"; };
+		64A7518C136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FingerReactorViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A7516C136944980056EED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A75174136944980056EED6 /* UIKit.framework in Frameworks */,
+				64A75176136944980056EED6 /* Foundation.framework in Frameworks */,
+				64A75178136944980056EED6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A75164136944980056EED6 = {
+			isa = PBXGroup;
+			children = (
+				64A75179136944980056EED6 /* FingerReactor */,
+				64A75172136944980056EED6 /* Frameworks */,
+				64A75170136944980056EED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A75170136944980056EED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A7516F136944980056EED6 /* FingerReactor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A75172136944980056EED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A75173136944980056EED6 /* UIKit.framework */,
+				64A75175136944980056EED6 /* Foundation.framework */,
+				64A75177136944980056EED6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64A75179136944980056EED6 /* FingerReactor */ = {
+			isa = PBXGroup;
+			children = (
+				64A75182136944980056EED6 /* FingerReactorAppDelegate.h */,
+				64A75183136944980056EED6 /* FingerReactorAppDelegate.m */,
+				64A75185136944990056EED6 /* MainWindow.xib */,
+				64A75188136944990056EED6 /* FingerReactorViewController.h */,
+				64A75189136944990056EED6 /* FingerReactorViewController.m */,
+				64A7518B136944990056EED6 /* FingerReactorViewController.xib */,
+				64A7517A136944980056EED6 /* Supporting Files */,
+			);
+			path = FingerReactor;
+			sourceTree = "<group>";
+		};
+		64A7517A136944980056EED6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A7517B136944980056EED6 /* FingerReactor-Info.plist */,
+				64A7517C136944980056EED6 /* InfoPlist.strings */,
+				64A7517F136944980056EED6 /* FingerReactor-Prefix.pch */,
+				64A75180136944980056EED6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A7516E136944980056EED6 /* FingerReactor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A75190136944990056EED6 /* Build configuration list for PBXNativeTarget "FingerReactor" */;
+			buildPhases = (
+				64A7516B136944980056EED6 /* Sources */,
+				64A7516C136944980056EED6 /* Frameworks */,
+				64A7516D136944980056EED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerReactor;
+			productName = FingerReactor;
+			productReference = 64A7516F136944980056EED6 /* FingerReactor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A75166136944980056EED6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 64A75169136944980056EED6 /* Build configuration list for PBXProject "FingerReactor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64A75164136944980056EED6;
+			productRefGroup = 64A75170136944980056EED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A7516E136944980056EED6 /* FingerReactor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A7516D136944980056EED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A7517E136944980056EED6 /* InfoPlist.strings in Resources */,
+				64A75187136944990056EED6 /* MainWindow.xib in Resources */,
+				64A7518D136944990056EED6 /* FingerReactorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A7516B136944980056EED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A75181136944980056EED6 /* main.m in Sources */,
+				64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */,
+				64A7518A136944990056EED6 /* FingerReactorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64A7517C136944980056EED6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A7517D136944980056EED6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64A75185136944990056EED6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A75186136944990056EED6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		64A7518B136944990056EED6 /* FingerReactorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A7518C136944990056EED6 /* en */,
+			);
+			name = FingerReactorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A7518E136944990056EED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64A7518F136944990056EED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		64A75191136944990056EED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerReactor/FingerReactor-Prefix.pch";
+				INFOPLIST_FILE = "FingerReactor/FingerReactor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64A75192136944990056EED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerReactor/FingerReactor-Prefix.pch";
+				INFOPLIST_FILE = "FingerReactor/FingerReactor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A75169136944980056EED6 /* Build configuration list for PBXProject "FingerReactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A7518E136944990056EED6 /* Debug */,
+				64A7518F136944990056EED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A75190136944990056EED6 /* Build configuration list for PBXNativeTarget "FingerReactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A75191136944990056EED6 /* Debug */,
+				64A75192136944990056EED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A75166136944980056EED6 /* Project object */;
+}
