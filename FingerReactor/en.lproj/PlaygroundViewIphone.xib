@@ -54,9 +54,9 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont" id="468674698">
+						<object class="NSFont" key="IBUIFont" id="881753845">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">15</double>
+							<double key="NSSize">24</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
@@ -85,7 +85,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="468674698"/>
+						<reference key="IBUIFont" ref="881753845"/>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">P3</string>
 						<reference key="IBUIHighlightedTitleColor" ref="361411749"/>
@@ -106,7 +106,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="468674698"/>
+						<reference key="IBUIFont" ref="881753845"/>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">P1</string>
 						<reference key="IBUIHighlightedTitleColor" ref="361411749"/>
@@ -127,7 +127,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="468674698"/>
+						<reference key="IBUIFont" ref="881753845"/>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">P2</string>
 						<reference key="IBUIHighlightedTitleColor" ref="361411749"/>
@@ -145,7 +145,7 @@
 							<object class="IBUIButton" id="723484068">
 								<reference key="NSNextResponder" ref="691077048"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{124, 70}, {72, 37}}</string>
+								<string key="NSFrame">{{116, 91}, {88, 56}}</string>
 								<reference key="NSSuperview" ref="691077048"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="843407261"/>
@@ -153,7 +153,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
-								<reference key="IBUIFont" ref="468674698"/>
+								<reference key="IBUIFont" ref="881753845"/>
 								<int key="IBUIButtonType">1</int>
 								<string key="IBUINormalTitle">Start</string>
 								<reference key="IBUIHighlightedTitleColor" ref="361411749"/>
@@ -166,7 +166,7 @@
 							<object class="IBUILabel" id="675352975">
 								<reference key="NSNextResponder" ref="691077048"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{67, 29}, {187, 21}}</string>
+								<string key="NSFrame">{{0, 29}, {320, 45}}</string>
 								<reference key="NSSuperview" ref="691077048"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="723484068"/>
@@ -177,8 +177,8 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<string key="IBUIText"/>
 								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">Helvetica</string>
-									<double key="NSSize">17</double>
+									<string key="NSName">Helvetica-Bold</string>
+									<double key="NSSize">18</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<object class="NSColor" key="IBUITextColor">
@@ -357,8 +357,8 @@
 						<reference key="object" ref="691077048"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="723484068"/>
 							<reference ref="675352975"/>
+							<reference ref="723484068"/>
 						</object>
 						<reference key="parent" ref="774585933"/>
 					</object>

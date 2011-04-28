@@ -169,6 +169,7 @@
 								<string key="NSFrame">{{0, 138}, {768, 74}}</string>
 								<reference key="NSSuperview" ref="981623408"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="537880821"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
@@ -176,7 +177,7 @@
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<string key="IBUIText"/>
 								<object class="NSFont" key="IBUIFont">
-									<string key="NSName">Helvetica</string>
+									<string key="NSName">Helvetica-Bold</string>
 									<double key="NSSize">36</double>
 									<int key="NSfFlags">16</int>
 								</object>
@@ -190,7 +191,7 @@
 						<string key="NSFrame">{{0, 258}, {768, 488}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="537880821"/>
+						<reference key="NSNextKeyView" ref="261711759"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="419857132">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640F4DE11369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640F4DE01369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib */; };
+		640F4DE41369A60E0096C7EA /* FingerReactorStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640F4DE31369A60E0096C7EA /* FingerReactorStartViewController.m */; };
+		640F4DE81369A6B90096C7EA /* FingerReactorIPadStartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640F4DE71369A6B90096C7EA /* FingerReactorIPadStartView.xib */; };
 		64523E6413698D3500917AC6 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64523E6213698D3500917AC6 /* MainWindow-iPad.xib */; };
 		64523E7113698FE200917AC6 /* PlaygroundViewIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */; };
 		64A75174136944980056EED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75173136944980056EED6 /* UIKit.framework */; };
@@ -21,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640F4DE01369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FingerReactorIPhoneStartView.xib; sourceTree = "<group>"; };
+		640F4DE21369A60E0096C7EA /* FingerReactorStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerReactorStartViewController.h; sourceTree = "<group>"; };
+		640F4DE31369A60E0096C7EA /* FingerReactorStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerReactorStartViewController.m; sourceTree = "<group>"; };
+		640F4DE71369A6B90096C7EA /* FingerReactorIPadStartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FingerReactorIPadStartView.xib; sourceTree = "<group>"; };
 		64523E6313698D3500917AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaygroundViewIPad.xib; sourceTree = "<group>"; };
 		64A7516F136944980056EED6 /* FingerReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +65,7 @@
 			children = (
 				64523E6213698D3500917AC6 /* MainWindow-iPad.xib */,
 				64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */,
+				640F4DE71369A6B90096C7EA /* FingerReactorIPadStartView.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -100,6 +108,9 @@
 				64A75189136944990056EED6 /* PlaygroundViewController.m */,
 				64A7518B136944990056EED6 /* PlaygroundViewIPhone.xib */,
 				64A7517A136944980056EED6 /* Supporting Files */,
+				640F4DE01369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib */,
+				640F4DE21369A60E0096C7EA /* FingerReactorStartViewController.h */,
+				640F4DE31369A60E0096C7EA /* FingerReactorStartViewController.m */,
 			);
 			path = FingerReactor;
 			sourceTree = "<group>";
@@ -167,6 +178,8 @@
 				64A7518D136944990056EED6 /* PlaygroundViewIPhone.xib in Resources */,
 				64523E6413698D3500917AC6 /* MainWindow-iPad.xib in Resources */,
 				64523E7113698FE200917AC6 /* PlaygroundViewIPad.xib in Resources */,
+				640F4DE11369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib in Resources */,
+				640F4DE81369A6B90096C7EA /* FingerReactorIPadStartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +193,7 @@
 				64A75181136944980056EED6 /* main.m in Sources */,
 				64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */,
 				64A7518A136944990056EED6 /* PlaygroundViewController.m in Sources */,
+				640F4DE41369A60E0096C7EA /* FingerReactorStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
