@@ -11,6 +11,7 @@
 
 @interface FingerReactorStartViewController : UIViewController {
     
+    IBOutlet UIButton *btnStart;
 }
 - (IBAction)startClicked:(id)sender;
 
