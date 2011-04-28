@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FingerReactorViewController : UIViewController {
+@interface PlaygroundViewController : UIViewController {
     
     IBOutlet UIView *playgroundView;
     IBOutlet UIButton *btnStart;

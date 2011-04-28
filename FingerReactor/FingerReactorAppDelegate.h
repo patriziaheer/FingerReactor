@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class FingerReactorViewController;
+@class PlaygroundViewController;
 
 @interface FingerReactorAppDelegate : NSObject <UIApplicationDelegate> {
 
@@ -16,6 +16,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet FingerReactorViewController *viewController;
+@property (nonatomic, retain) IBOutlet PlaygroundViewController *viewController;
 
 @end

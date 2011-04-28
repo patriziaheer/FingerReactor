@@ -6,10 +6,10 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FingerReactorViewController.h"
+#import "PlaygroundViewController.h"
 #include <stdlib.h>
 
-@implementation FingerReactorViewController
+@implementation PlaygroundViewController
 
 @synthesize hasWinner;
 

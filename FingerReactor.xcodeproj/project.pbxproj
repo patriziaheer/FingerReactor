@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64523E6413698D3500917AC6 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64523E6213698D3500917AC6 /* MainWindow-iPad.xib */; };
+		64523E7113698FE200917AC6 /* PlaygroundViewIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */; };
 		64A75174136944980056EED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75173136944980056EED6 /* UIKit.framework */; };
 		64A75176136944980056EED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75175136944980056EED6 /* Foundation.framework */; };
 		64A75178136944980056EED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A75177136944980056EED6 /* CoreGraphics.framework */; };
@@ -14,11 +16,13 @@
 		64A75181136944980056EED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75180136944980056EED6 /* main.m */; };
 		64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75183136944980056EED6 /* FingerReactorAppDelegate.m */; };
 		64A75187136944990056EED6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A75185136944990056EED6 /* MainWindow.xib */; };
-		64A7518A136944990056EED6 /* FingerReactorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75189136944990056EED6 /* FingerReactorViewController.m */; };
-		64A7518D136944990056EED6 /* FingerReactorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A7518B136944990056EED6 /* FingerReactorViewController.xib */; };
+		64A7518A136944990056EED6 /* PlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75189136944990056EED6 /* PlaygroundViewController.m */; };
+		64A7518D136944990056EED6 /* PlaygroundViewIPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A7518B136944990056EED6 /* PlaygroundViewIPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64523E6313698D3500917AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaygroundViewIPad.xib; sourceTree = "<group>"; };
 		64A7516F136944980056EED6 /* FingerReactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerReactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A75173136944980056EED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64A75175136944980056EED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,9 +34,9 @@
 		64A75182136944980056EED6 /* FingerReactorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReactorAppDelegate.h; sourceTree = "<group>"; };
 		64A75183136944980056EED6 /* FingerReactorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReactorAppDelegate.m; sourceTree = "<group>"; };
 		64A75186136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		64A75188136944990056EED6 /* FingerReactorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerReactorViewController.h; sourceTree = "<group>"; };
-		64A75189136944990056EED6 /* FingerReactorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerReactorViewController.m; sourceTree = "<group>"; };
-		64A7518C136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FingerReactorViewController.xib; sourceTree = "<group>"; };
+		64A75188136944990056EED6 /* PlaygroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundViewController.h; sourceTree = "<group>"; };
+		64A75189136944990056EED6 /* PlaygroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundViewController.m; sourceTree = "<group>"; };
+		64A7518C136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlaygroundViewIphone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64523E6113698D3300917AC6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				64523E6213698D3500917AC6 /* MainWindow-iPad.xib */,
+				64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		64A75164136944980056EED6 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +92,13 @@
 		64A75179136944980056EED6 /* FingerReactor */ = {
 			isa = PBXGroup;
 			children = (
+				64523E6113698D3300917AC6 /* iPad */,
 				64A75182136944980056EED6 /* FingerReactorAppDelegate.h */,
 				64A75183136944980056EED6 /* FingerReactorAppDelegate.m */,
 				64A75185136944990056EED6 /* MainWindow.xib */,
-				64A75188136944990056EED6 /* FingerReactorViewController.h */,
-				64A75189136944990056EED6 /* FingerReactorViewController.m */,
-				64A7518B136944990056EED6 /* FingerReactorViewController.xib */,
+				64A75188136944990056EED6 /* PlaygroundViewController.h */,
+				64A75189136944990056EED6 /* PlaygroundViewController.m */,
+				64A7518B136944990056EED6 /* PlaygroundViewIPhone.xib */,
 				64A7517A136944980056EED6 /* Supporting Files */,
 			);
 			path = FingerReactor;
@@ -150,7 +164,9 @@
 			files = (
 				64A7517E136944980056EED6 /* InfoPlist.strings in Resources */,
 				64A75187136944990056EED6 /* MainWindow.xib in Resources */,
-				64A7518D136944990056EED6 /* FingerReactorViewController.xib in Resources */,
+				64A7518D136944990056EED6 /* PlaygroundViewIPhone.xib in Resources */,
+				64523E6413698D3500917AC6 /* MainWindow-iPad.xib in Resources */,
+				64523E7113698FE200917AC6 /* PlaygroundViewIPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,13 +179,21 @@
 			files = (
 				64A75181136944980056EED6 /* main.m in Sources */,
 				64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */,
-				64A7518A136944990056EED6 /* FingerReactorViewController.m in Sources */,
+				64A7518A136944990056EED6 /* PlaygroundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		64523E6213698D3500917AC6 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64523E6313698D3500917AC6 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 		64A7517C136944980056EED6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -186,12 +210,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		64A7518B136944990056EED6 /* FingerReactorViewController.xib */ = {
+		64A7518B136944990056EED6 /* PlaygroundViewIPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				64A7518C136944990056EED6 /* en */,
 			);
-			name = FingerReactorViewController.xib;
+			name = PlaygroundViewIPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,7 +262,9 @@
 				GCC_PREFIX_HEADER = "FingerReactor/FingerReactor-Prefix.pch";
 				INFOPLIST_FILE = "FingerReactor/FingerReactor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -252,7 +278,9 @@
 				GCC_PREFIX_HEADER = "FingerReactor/FingerReactor-Prefix.pch";
 				INFOPLIST_FILE = "FingerReactor/FingerReactor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -277,6 +305,7 @@
 				64A75192136944990056EED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

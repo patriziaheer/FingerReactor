@@ -8,7 +8,7 @@
 
 #import "FingerReactorAppDelegate.h"
 
-#import "FingerReactorViewController.h"
+#import "PlaygroundViewController.h"
 
 @implementation FingerReactorAppDelegate
 
