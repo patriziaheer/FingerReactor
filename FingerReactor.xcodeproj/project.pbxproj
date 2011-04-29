@@ -21,6 +21,9 @@
 		64A75187136944990056EED6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A75185136944990056EED6 /* MainWindow.xib */; };
 		64A7518A136944990056EED6 /* PlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A75189136944990056EED6 /* PlaygroundViewController.m */; };
 		64A7518D136944990056EED6 /* PlaygroundViewIPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A7518B136944990056EED6 /* PlaygroundViewIPhone.xib */; };
+		64D3DE27136A949B006E03C3 /* HitWhenGreenViewIPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D3DE26136A949B006E03C3 /* HitWhenGreenViewIPhone.xib */; };
+		64D3DE2B136A94D5006E03C3 /* HitWhenGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3DE2A136A94D4006E03C3 /* HitWhenGreenViewController.m */; };
+		64F8510C136ABAC600ABA29D /* HitWHenGreenViewIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F8510B136ABAC600ABA29D /* HitWHenGreenViewIPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,11 @@
 		64A75188136944990056EED6 /* PlaygroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaygroundViewController.h; sourceTree = "<group>"; };
 		64A75189136944990056EED6 /* PlaygroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundViewController.m; sourceTree = "<group>"; };
 		64A7518C136944990056EED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PlaygroundViewIphone.xib; sourceTree = "<group>"; };
+		64D3DE26136A949B006E03C3 /* HitWhenGreenViewIPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HitWhenGreenViewIPhone.xib; sourceTree = "<group>"; };
+		64D3DE29136A94D4006E03C3 /* HitWhenGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HitWhenGreenViewController.h; sourceTree = "<group>"; };
+		64D3DE2A136A94D4006E03C3 /* HitWhenGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HitWhenGreenViewController.m; sourceTree = "<group>"; };
+		64F8510B136ABAC600ABA29D /* HitWHenGreenViewIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HitWHenGreenViewIPad.xib; sourceTree = "<group>"; };
+		64F8510D136ABDBA00ABA29D /* IMiniGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMiniGame.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 				64523E6213698D3500917AC6 /* MainWindow-iPad.xib */,
 				64523E7013698FE200917AC6 /* PlaygroundViewIPad.xib */,
 				640F4DE71369A6B90096C7EA /* FingerReactorIPadStartView.xib */,
+				64F8510B136ABAC600ABA29D /* HitWHenGreenViewIPad.xib */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -111,6 +120,10 @@
 				640F4DE01369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib */,
 				640F4DE21369A60E0096C7EA /* FingerReactorStartViewController.h */,
 				640F4DE31369A60E0096C7EA /* FingerReactorStartViewController.m */,
+				64D3DE26136A949B006E03C3 /* HitWhenGreenViewIPhone.xib */,
+				64D3DE29136A94D4006E03C3 /* HitWhenGreenViewController.h */,
+				64D3DE2A136A94D4006E03C3 /* HitWhenGreenViewController.m */,
+				64F8510D136ABDBA00ABA29D /* IMiniGame.h */,
 			);
 			path = FingerReactor;
 			sourceTree = "<group>";
@@ -180,6 +193,8 @@
 				64523E7113698FE200917AC6 /* PlaygroundViewIPad.xib in Resources */,
 				640F4DE11369A5EB0096C7EA /* FingerReactorIPhoneStartView.xib in Resources */,
 				640F4DE81369A6B90096C7EA /* FingerReactorIPadStartView.xib in Resources */,
+				64D3DE27136A949B006E03C3 /* HitWhenGreenViewIPhone.xib in Resources */,
+				64F8510C136ABAC600ABA29D /* HitWHenGreenViewIPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +209,7 @@
 				64A75184136944980056EED6 /* FingerReactorAppDelegate.m in Sources */,
 				64A7518A136944990056EED6 /* PlaygroundViewController.m in Sources */,
 				640F4DE41369A60E0096C7EA /* FingerReactorStartViewController.m in Sources */,
+				64D3DE2B136A94D5006E03C3 /* HitWhenGreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
